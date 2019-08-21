@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SpartanRankup">
+    <output-path>$PROJECT_DIR$/../../Servidores - minecraft/1.8.8/plugins</output-path>
+    <root id="archive" name="SpartanRankup.jar">
+      <element id="module-output" name="SpartanRankup" />
+    </root>
+  </artifact>
+</component>

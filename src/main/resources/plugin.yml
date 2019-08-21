@@ -1,0 +1,14 @@
+name: SpartanRankup
+version: ${project.version}
+main: me.zkingofkill.spartan.rankup.SpartanRankup
+prefix: SpartanRankup
+authors: [zKingOfKill]
+softdepend: [PlaceholderAPI]
+description: plugin de rankup.
+
+commands:
+  ranks:
+    description: comando para ver ranks.
+  rankup:
+    description: comando para upar de rank.
+  rankupadmin:

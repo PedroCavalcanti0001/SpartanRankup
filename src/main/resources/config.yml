@@ -1,0 +1,74 @@
+mysql:
+  host:
+  database:
+  port:
+  table:
+  password:
+  user:
+
+global-lore:
+- " "
+- "&a&lSub-Ranks: "
+- " &aI:"
+- "  Estrelas: <amount-stars-I>"
+- "  Gemas: <amount-yolks-I>"
+- " &2II:"
+- "  Estrelas: <amount-stars-II>"
+- "  Gemas: <amount-yolks-II>"
+- " &6III:"
+- "  Estrelas: <amount-stars-III>"
+- "  Gemas: <amount-yolks-III>"
+categories:
+  Zumbi:
+    name: "§aRank Zumbi"
+    item-id: 1:2
+    glow: true
+    ranks:
+      I:
+        position: 1
+        prefix: "&a[Zumbi-I]"
+        requeriments:
+          stars: 30.0
+          yolks: 50.0
+        permissions:
+        - "permissao.usar"
+        commands:
+        - "comando"
+      II:
+        position: 2
+        prefix: "&a[Zumbi-II]"
+        requeriments:
+          stars: 500.0
+          yolks: 33.0
+        permissions:
+        - "permissao.usar"
+        commands:
+        - "comando"
+      III:
+        position: 3
+        prefix: "&a[Zumbi-III]"
+        requeriments:
+          stars: 3330.0
+          yolks: 510.0
+        permissions:
+        - "permissao.usar"
+        commands:
+        - "comando"
+        -
+
+decimalplaces:
+- ""
+- "K"
+- "M"
+- "B"
+- "T"
+- "Q"
+- "QI"
+- "S"
+- "SEP"
+- "OC"
+- "N"
+- "DEC"
+- "UN"
+- "DUO"
+- "TRE"
